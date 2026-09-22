@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Training-only dataset; the deployed app uses the trained model and mapping.
+data/emnist-balanced.mat
